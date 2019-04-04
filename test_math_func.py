@@ -11,7 +11,8 @@ def db():
     db.connect('data.json')
     yield db
     db.close()
-    print('closs Pass')
+    # print('closs Pass')
+    return 'test'
 
 
 # def teardown_module(module):
